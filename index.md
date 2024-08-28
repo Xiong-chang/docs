@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Start learning
-      link: /markdown-examples
-    - theme: alt
-      text: content
       link: /api-examples
+    - theme: alt
+      text: introduce
+      link: /markdown-examples
 
 features:
   - title: 你
@@ -23,3 +23,13 @@ features:
     details: Are you a programmer
 ---
 
+<br>
+
+---
+<br>
+<br>
+
+<center>不要妄图规划未来、先把当下的事情做好</center>
+<p align="right"style="text-decoration: none;">——大锤</p>
+
+---

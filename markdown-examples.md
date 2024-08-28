@@ -1,102 +1,34 @@
-# Markdown Extension Examples
+# 简短介绍一下自己
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+## 前言
 
-## Syntax Highlighting
+你好 我是前端菜鸟，正在学习前端
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+是一个励志成为架构师的男人
 
-**Input**
+这里是一个记录学习笔记的地方
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+## 学习内容
 
-**Output**
+- HTML
+- CSS
+- JavaScript
+- Vue
+- React
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
-
+## 联系方式
+- Github: [此处直达](https://github.com/Xiong-chang)
 
 ## 贡献者
+
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme'
-const members = [
+  import {VPTeamMembers} from 'vitepress/theme'
+ const members=[
   {
-    name: '大锤',
-    title: 'hope',
-    avatar: 'https://vitejs.dev/logo.svg',
-    link: 'https://vitejs.dev/',
-  }
-]
+    name:'大锤',
+    title:'hope',
+    avatar:'https://avatars.githubusercontent.com/u/123063470?s=400&u=84a243c2b85d9da771f401c11ea18ca0fb643dbb&v=4'
+  },
+ ]
 </script>
-
-<VPTeamMembers size="small" :members="members" />
-
+<VPTeamMembers size="small" :members="members"/>
