@@ -20,12 +20,6 @@ jobs:
         run: |
           npm install
           npm run docs:build
-
-      - name: Clean up worktree
-        run: |
-          git worktree prune
-          git worktree remove /home/runner/work/docs/docs || true
-
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
