@@ -13,6 +13,7 @@
 - HTML
 - CSS
 - JavaScript
+- TypeScript
 - Vue
 - React
 
