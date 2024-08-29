@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Start learning
-      link: /api-examples
+      link: /md/js/this.md
     - theme: alt
       text: introduce
       link: /markdown-examples
