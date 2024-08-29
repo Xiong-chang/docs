@@ -15,11 +15,14 @@ hero:
       link: /markdown-examples
 
 features:
-  - title: 你
+  - icon: 🤹
+    title: 你
     details: You
-  - title: 真的
+  - icon: 🤹
+    title: 真的
     details: Really
-  - title: 是程序员吗
+  - icon: 🤹
+    title: 是程序员吗
     details: Are you a programmer
 ---
 
