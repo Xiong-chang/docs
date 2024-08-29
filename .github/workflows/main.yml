@@ -1,18 +1,15 @@
 name: CI Github Pages
 
 on:
-  # 监听 push 操作
   push:
     branches:
-      - main # 只有推送到 main 分支才会触发以下任务
+      - main
 
 jobs:
   build-and-deploy:
-    # 运行环境
     runs-on: ubuntu-latest
 
     steps:
-      # 官方 action，将代码拉取到虚拟机
       - name: Checkout code
         uses: actions/checkout@v3
 
@@ -20,8 +17,9 @@ jobs:
         run: |
           npm install
           npm run docs:build
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          branch: main # 部署后提交到 main 分支
-          folder: docs # 这里填打包好的目录名称
+          branch: gh-pages
+          folder: docs
