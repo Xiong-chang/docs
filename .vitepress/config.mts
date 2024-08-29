@@ -30,13 +30,14 @@ export default defineConfig({
     },
 
     sidebar: [
-      // {
-      //   text: 'Examples',
-      //   items: [
-      //     { text: 'Markdown Examples', link: '/markdown-examples' },
-      //     { text: 'Runtime API Examples', link: '/api-examples' }
-      //   ]
-      // }
+      {
+        text: "JavaScript",
+        items: [
+          { text: "this指针/闭包/作用域", link: "/md/js/this.md" },
+          { text: "前端异步编程规范", link: "/md/js/promise.md" },
+          // { text: "JS高级", link: "/md/js-md/senior.md" },
+        ],
+      },
     ],
 
     socialLinks: [
